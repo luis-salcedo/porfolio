@@ -1,0 +1,18 @@
+/* Set Up Moon Switch */
+.moon-switch{
+    width: 80px;
+    height: 40px;
+    border-radius: 20px; /* half the height for pill design*/
+    background-color: rgb(39, 38, 38);
+    position: relative; /*To move flicker left and right */
+}
+
+.dark .moon-switch{
+    background-color: rgb(114, 110, 110);
+    transition: 1s;
+
+}
+.dark .moon-switch:hover{
+    background-color: rgb(43, 43, 43);
+    transition: 1s;
+}

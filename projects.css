@@ -1,0 +1,40 @@
+.sub-section{
+    display: flex;
+    flex-wrap: wrap;
+}
+.square{
+    /* width: 80%;
+    margin: 0 20% 2% 20%; */
+    width: 98%;
+    margin: 0% 1% 1% 1%;
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    
+}
+
+.dark .square{
+    background-color: rgb(71, 71, 71);
+}
+
+#bank-app{
+    background-image: url(images/revenoo-app.png);
+    background-size: cover;
+    border-radius: 20px 20px 0px 0px;
+    
+}
+#instagram-analytics{
+    background-image: url(images/burgerrator.png);
+    background-size: cover;
+    border-radius: 0px 0px 0px 0px;
+}
+#school-system{
+    background-image: url(images/news-app.png);
+    background-size: cover;
+    border-radius: 0px 0px 0px 0px;
+}
+#dates{
+    background-image: url(images/dates-app.png);
+    background-size: cover;
+    border-radius: 0px 0px 20px 20px;
+}
