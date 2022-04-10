@@ -1,6 +1,8 @@
 
 /* Create moon Design */
 .moon{
+    /* background-color: blue; */
+    /* background-image: url('images/moon.png'); */
     width: 20px;
     height: 20px;
     border-radius: 10px;
@@ -12,6 +14,7 @@
 
 /* Remove Moon in Dark Mode */
 .dark .moon{
+    transition: 2s;
     display: none;
 }
 

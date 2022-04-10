@@ -1,59 +1,76 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
 
 body{
-    transition: 0.3s;
     margin: 0;
     padding: 0;
     /* background-color: rgb(237, 240, 240); */
-    background-color: rgb(199, 231, 255);
+    background-color: rgb(250, 250, 250);
     font-family: 'Poppins', sans-serif;
-    color: rgb(57, 57, 57);
-}
-h1{
-    font-size: 70px;
-    line-height: 70px;
-    font-weight: 300;
-    margin: 10px 0;
-}
-h2{
-    font-size: 40px;
-    line-height: 40px;
-    font-weight: 300;
-    margin: 50px 0 10px 0;
-    text-transform: uppercase;
-}
-p{
-    margin: 0;
-    font-size: 20px;
-}
-a{
-    color: rgb(68, 62, 72);
-    font-size: 20px;
-    text-decoration: none;
-    font-weight: 100;
-    font-weight: bold
-}
-a:hover{
-    text-decoration: underline;
-    font-size: 22px;
-}
-.dark a{
-    color: rgb(238, 169, 255);
 }
 header{
     display: flex;
     justify-content: flex-end;
     padding: 10px;
+    border-bottom: solid transparent;
 }
 header:hover{
+    transition: 1s;
     background-color: rgb(207, 217, 253,0.5);
     border-radius: 0px 0px 20px 20px;
-    transition: 1s;
 }
 .dark header:hover{
+    transition: 2s;
     background-color: rgba(49, 59, 70, 0.399);
-    transition: 1s;
+    border-color: rgb(238, 169, 255);
 }
+
+#profile-name{
+    font-size: 5em;
+    line-height: 70px;
+    font-weight: 300;
+    margin: 10px 0;
+}
+.profile-header{
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+.profile-header-text{
+    padding: 20px;
+    margin-bottom: 100px;
+}
+#country{
+    text-decoration: none;
+}
+p{
+    margin: 0;
+    font-size: 20px;
+}
+/* a{
+    color: black;
+    /* background-color: rosybrown; */
+    margin: 5%;
+    padding: 1%;
+    border: 3px solid transparent;
+    font-size: 1.3rem;
+    text-decoration: none;
+    font-weight: 700;
+    
+}
+a:hover{
+    text-decoration: underline;
+    border-color: black;
+    border-radius: 20px;
+    
+}
+.dark a{
+    color: rgb(238, 169, 255);
+} */
+
+
 /* SET UP DARK/LIGHT MODE */
 
 .dark{
@@ -64,31 +81,20 @@ header:hover{
 .dark > *{
     color: rgb(255, 255, 255);
 }
-.main{
-    height: 60vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px;
-}
-.main-text{
-    padding: 20px;
-    margin-bottom: 100px;
-}
+
 
 footer{
     display: flex;
     justify-content: center;
     padding: 50px 30px;
-    background-color: rgb(137, 137, 137);
+    background-color: rgb(124, 186, 253);
 }
 
 .dark footer{
     background-color: rgb(81, 81, 81);
 }
 
-@media only screen and (min-width: 970px){
+/* @media only screen and (min-width: 970px){
     .main-text{
         width: 50%;
     }
@@ -96,12 +102,12 @@ footer{
         width: 98%;
         margin: 2%;
         height: 600%;
-    }
+    } 
 }
 
 @media only screen and (max-width: 1300px){
     .hero-image{
         display: none;
     }
-}
+} */
 

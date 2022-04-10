@@ -1,0 +1,60 @@
+.programming-stack{
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: 2%;
+    position: relative;
+}
+
+.stack{
+    font-weight: bold;
+    transition: 1s;
+    margin: 0% 1% 1% 1%;
+    width: 50%;
+    height: 4em;
+    text-align: center;
+    border: 3px solid rgb(22, 135, 255);
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    
+}
+.stack:hover{
+    transition: 1s;
+    transform: translate(15px);
+
+}
+
+#html-stack{
+    
+    background-image: url('images/html.png');
+}
+#html-stack:hover{
+    transition: 1s;
+    
+}
+#css-stack{
+    background-image: url('images/css.png');
+    background-size: cover;
+    
+}
+#javascript-stack{
+    background-image: url('images/javascript.png');
+    background-size: cover;
+
+}
+#python-stack{
+    background-image: url('');
+    background-size: cover;
+}
+#flutter-stack{
+    background-image: url('');
+    background-size: cover;
+}
+#cpp-stack{
+    background-image: url('');
+    background-size: cover;
+
+}

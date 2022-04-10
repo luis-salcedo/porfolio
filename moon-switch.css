@@ -6,6 +6,9 @@
     background-color: rgb(39, 38, 38);
     position: relative; /*To move flicker left and right */
 }
+/* .moon-switch:hover{
+    background-color: rebeccapurple;
+} */
 
 .dark .moon-switch{
     background-color: rgb(114, 110, 110);
@@ -14,5 +17,7 @@
 }
 .dark .moon-switch:hover{
     background-color: rgb(43, 43, 43);
-    transition: 1s;
+    transition: 1.5s;
+    transform: translate(5px);
+    /* transform: rotate(1turn); */
 }
