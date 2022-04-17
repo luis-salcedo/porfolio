@@ -1,0 +1,67 @@
+.programming-stack{
+    text-transform: uppercase;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 60%;
+    margin: 8% 1% 2% 1%;
+    position: relative;
+    justify-content: center;
+}
+
+.stack{
+    transition: 1s;
+    font-weight: bold;
+    transition: 1s;
+    margin: 0% 1% 1% 1%;
+    width: 25%;
+    height: 4.5em;
+    text-align: center;
+    border: 3px solid rgb(22, 135, 255);
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    
+}
+.stack:hover{
+    transition: 1s;
+    transform: translate(5px, 10%);
+    box-shadow: -2px 5px 5px 2px rgba(0,0,0,0.5);
+}
+
+.dark .stack{
+    transition: 1s;
+    border-color: rgb(207, 19, 35);
+    box-shadow: -5px 5px 10px 5px rgba(207, 19, 35, 0.1);
+}
+.dark .stack:hover{
+    transition: 1s;
+    box-shadow: -2px 2px 2px 2px rgba(250,250,250,0.5);
+}
+#html-stack{
+    
+    background-image: url('/assets/stack/html.png');
+}
+
+#css-stack{
+    background-image: url('/assets/stack/css.png');
+    background-size: cover;
+    
+}
+#javascript-stack{
+    background-image: url('/assets/stack/javascript.png');
+    background-size: cover;
+
+}
+#python-stack{
+    background-image: url('/assets/stack/python.png');
+    background-size: cover;
+}
+#flutter-stack{
+    background-image: url('/assets/stack/flutter.png');
+    background-size: cover;
+}
+#cpp-stack{
+    background-image: url('/assets/stack/cpp.png');
+    background-size: cover;
+}

@@ -5,95 +5,199 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>My Porfolio</title>
-        <link rel="stylesheet" href="styles.css">
-        <link rel="stylesheet" href="projects.css">
-        <link rel="stylesheet" href="hero-design.css">
-        <link rel="stylesheet" href="moon.css">
-        <link rel="stylesheet" href="moon-flicker.css">
-        <link rel="stylesheet" href="moon-switch.css">
-        <link rel="stylesheet" href="programming-stack.css">
+        <!-- FONTS -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap" rel="stylesheet">
+        
+        <!-- STYLES -->
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="styles/projects.css">
+        <link rel="stylesheet" href="styles/hero-design.css">
+        <link rel="stylesheet" href="styles/moon.css">
+        <link rel="stylesheet" href="styles/moon-flicker.css">
+        <link rel="stylesheet" href="styles/moon-switch.css">
+        <link rel="stylesheet" href="styles/programming-stack.css">
+    
     </head>
     <body>
-        <header>
+        <header class="main-header">
+            <div>
+                <img src="/assets/header/flag.gif" alt="" class="main-header-flag">
+            </div>
             <div class="moon-switch"> <!-- Switch for dark mode-->
                 <div class="flicker">
                    <div class="moon"></div> 
                 </div>
             </div>
         </header>
-        
+
         <main class="main">
-            <section class="profile-header">
-                <div class="profile-header-text">
-                    <h1 id="name">Luis Salcedo</h1>
-                    <p>Welcome To My Page</p>
-                    <br>
-                    <p>I Am A Software Developer Flying Out of The <a href="#" target="_blank" id="country"> flag Dominican Republic flag</a></p>
-                    <br>
-                    <a href="#footer">Contact me</a>
-                </div>
-                <div class="hero-image">
-                    <div class="cube" id="cpp"></div>
-                    <div class="cube" id="javascript"></div>
-                    <div class="cube" id="html"></div>
-                    <div class="cube" id="css"></div>
-                    <div class="cube" id="flutter"></div>
-                </div>
+            <section class="profile-section">
+                <section class="profile-header">
+                    <h1 id="profile-name">Luis Salcedo</h1>
+                    <div class="profile-intro">
+                        <p id="intro-tag-one">Welcome To My Work Page</p>
+                        <p id="intro-tag-two">
+                            I Am A Software Developer From The 
+                            <img src="/assets/dom-rep.png" alt="Dominican Republic Flag"> 
+                            <a href="https://en.wikipedia.org/wiki/Dominican_Republic" target="_blank" id="country">Dominican Republic</a>
+                            <img src="/assets/dom-rep.png" alt="Dominican Republic Flag">
+                            <br>
+                            With Projects From Artificial Intelligence To Facial Recognition And More!
+                            <br>
+                            Check Out Some Of My Active Projects, and Those Still In Development Below. 
+                        </p>
+                        <br>
+                        </div>
+                        <a href="contact.html" target="_blank">Contact me</a>
+                </section>
+
+                <section class="programming-stack">
+                    <!-- <h2>Programming Stack</h2> -->
+                    <div class="stack" id="html-stack">
+                        <!-- <p>HTML</p> -->
+                    </div>
+                    <div class="stack" id="css-stack">
+                        <!-- <p>CSS</p> -->
+                    </div>
+                    <div class="stack" id="javascript-stack">
+                        
+                    </div>
+                    <div class="stack" id="python-stack">
+                        <!-- <p>python</p> -->
+                    </div>
+                    <div class="stack" id="flutter-stack">
+                        <!-- <p>Flutter</p> -->
+                    </div>
+                    <div class="stack" id="cpp-stack">
+                        <!-- <p>C++</p> -->
+                    </div>
+                    <div class="stack" id="cpp-stack">
+                        <p>NULL</p>
+                    </div>
+                </section>
             </section>
-            <section class="programming-stack">
-                <h2>Programming Stack</h2>
-                
-                <div class="stack" id="html-stack">
-                    <p>HTML</p>
-                </div>
-                <div class="stack" id="css-stack">
-                    <p>CSS</p>
-                </div>
-                <div class="stack" id="javascript-stack">
-                    <p>javascript</p>
-                </div>
-                <div class="stack" id="python-stack">
-                    <p>python</p>
-                </div>
-                <div class="stack" id="flutter-stack">
-                    <p>Flutter</p>
-                </div>
-                <div class="stack" id="cpp-stack">
-                    <p>C++</p>
-                </div>
-                
-            </section>
+            
             <section class="projects-section">
-                <div class="square" id="bank-app">
-                    <h2 class="project-title">Banking System</h2>
-                    <p>A bank management system.</p>
-                    <br>
-                    <a href="" target="_blank">Check it out!</a>
+
+                <div class="square">
+                    <div class="flutter-project" id="instagram-analytics">
+                        <h2 class="project-title">Instagram Analysis</h2>
+                        <p>Istagram User Profile Detail Analysis.</p>
+                        <br>
+                        <a href="" target="_blank" class="project-link">Check it out!</a>
+                        
+                    </div>
+                    <div class="progress"><p class="completed">In Development</p></div>
                 </div>
-                <div class="square" id="instagram-analytics">
-                    <h2 class="project-title">Instagram Analytics</h2>
-                    <p>Istagram User Analysis.</p>
-                    <br>
-                    <a href="" target="_blank">Check it out!</a>
+
+                <div class="square">
+                    <div class="flutter-project" id="instagram-analytics">
+                        <h2 class="project-title">A Flutter Project 2</h2>
+                        <p>Istagram User Analysis.</p>
+                        <br>
+                        <a href="" target="_blank" class="project-link">Check it out!</a>
+                        
+                    </div>
+                    <div class="progress"><p class="completed">In Development</p></div>
                 </div>
-                <div class="square" id="school-system">
-                    <h2 class="project-title">School System</h2>
-                    <p>Student Data Analysis.</p>
-                    <br>
-                    <a href="" target="_blank">Check it out!</a>
+
+                <!-- C++ PROJECTS -->
+                <div class="square" style="background-image: url('/assets/project-background/mm.gif'); background-size: cover; background-position: left"> 
+                    <div class="cpp-project" id="bank-app" >
+                        <h2 class="project-title">Bank System</h2>
+                        <p>A bank management system</p>
+                        <br>
+                        <a href="https://github.com/luis-salcedo/BankApp" target="_blank" class="project-link">Check it out!</a>
+                    </div>
+                    <div class="progress"><p class="completed">In Development</p></div>
                 </div>
-                <div class="square" id="dates">
-                    <h2 class="project-title">Dating App</h2>
-                    <p>An app for dates</p>
-                    <br>
-                    <a href="" target="_blank">Check it out!</a>
+
+                <div class="square" > <!-- style="background-image: url('/assets/project-background/mm.gif'); background-size: cover; background-position: left" -->
+                    <div class="cpp-project" id="dataset-reader" >
+                        <h2 class="project-title">Dataset Reader</h2>
+                        <p>A tool to read in a dataset</p>
+                        <br>
+                        <a href="https://github.com/luis-salcedo/DatasetReader" target="_blank" class="project-link">Check it out!</a>
+                    </div>
+                    <div class="progress"><p class="completed">Completed</p></div>
                 </div>
-                <!-- Testing -->
-                <div class="square" id="dates">
-                    <h2 class="project-title">Dating App</h2>
-                    <p>An app for dates</p>
-                    <br>
-                    <a href="" target="_blank">Check it out!</a>
+
+                <div class="square">
+                    <div class="cpp-project" id="school-system">
+                        <h2 class="project-title">A C++ Project 2</h2>
+                        <p>Student Data Analysis.</p>
+                        <br>
+                        <a href="" target="_blank" class="project-link">Check it out!</a>
+                    </div>
+                    <div class="progress"><p class="completed">In Development</p></div>
+                </div>
+                
+                <div class="square">
+                    <div class="cpp-project" id="school-system">
+                        <h2 class="project-title">A C++ Project 3</h2>
+                        <p>Project Test.</p>
+                        <br>
+                        <a href="" target="_blank" class="project-link">Check it out!</a>
+                    </div>
+                    <div class="progress"><p class="completed">In Development</p></div>
+                </div>
+
+                <!-- PYTHON PROJECTS -->
+                <div class="square">
+                    <div class="python-project" id="dates">
+                        <h2 class="project-title">A Python Project</h2>
+                        <p>Testing App</p>
+                        <br>
+                        <a href="https://github.com/" target="_blank" class="project-link">Check it out!</a>
+                    </div>
+                    <div class="progress"><p class="completed">In Development</p></div>
+                </div>
+
+                <div class="square">
+                    <div class="python-project" id="dates">
+                        <h2 class="project-title">A Python Project 2</h2>
+                        <p>Testing App</p>
+                        <br>
+                        <a href="https://github.com/" target="_blank" class="project-link">Check it out!</a>
+                    </div>
+                    <div class="progress"><p class="completed">In Development</p></div>
+                </div>
+                
+                <div class="square">
+                    <div class="python-project" id="dates">
+                        <h2 class="project-title">A Python Project 3</h2>
+                        <p>Testing App</p>
+                        <br>
+                        <a href="" target="_blank" class="project-link">Check it out!</a>
+                    </div>
+                    <div class="progress"><p class="completed">In Development</p></div>
+                </div>
+
+
+                <!-- Front-End Projects -->
+                <div class="square">
+                    <div class="frontend-project" id="dates">
+                        <h2 class="project-title">A Frontend project</h2>
+                        <p>Testing App</p>
+                        <br>
+                        <a href="https://github.com/" target="_blank" class="project-link">Check it out!</a>
+                    </div>
+                    <div class="progress"><p class="completed">In Development</p></div>
+                </div>
+
+                <div class="square">
+                    <div class="frontend-project" id="dates">
+                        <h2 class="project-title">A Frontend project 2</h2>
+                        <p>Testing App</p>
+                        <br>
+                        <a href="https://github.com/" target="_blank" class="project-link">Check it out!</a>
+                    </div>
+                    <div class="progress"><p class="completed">In Development</p></div>
                 </div>
             </section>
             
