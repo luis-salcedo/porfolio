@@ -1,14 +1,4 @@
 
-// Dark Mode Enable
-const switchElement = document.querySelector('.moon-switch')
-let isDarked = false;
-switchElement.addEventListener('click', lightsOut)
-function lightsOut(){
-    // isDarked = true;
-    isDarked = true;
-    document.body.classList.toggle('dark')
-}
-
         /* C++ Projects */
 const cppStack = document.querySelector('#cpp-stack')
 const cppProjects = document.querySelectorAll('.cpp-project');
@@ -82,8 +72,13 @@ function scaleOnHover(projects){
 
 // Open To Project Link on Card Click
 const projects = document.querySelectorAll('.square'); //All Project Squares
+
 for(let i = 0; projects.length; i++){
     projects[i].addEventListener('click', ()=>{
         window.open(projects[i].querySelector('.project-link'))
     })
 }
+
+
+
+

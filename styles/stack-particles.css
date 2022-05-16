@@ -1,0 +1,9 @@
+stack-particle{
+    position: fixed;
+    left: 0;
+    top: 0;
+    pointer-events:painted;
+    opacity: 0;
+    /* background-image: url(/assets/star4.png); */
+    background-size: cover;
+}

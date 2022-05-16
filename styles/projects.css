@@ -5,22 +5,13 @@
     font-weight: 700;
     text-transform: uppercase;
 }
-/* .projects-section{
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 98%;
-    margin: 2%;
-    
-} */
 .projects-section{
     position: relative;
+
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 98%;
-    margin: 2%;
+    
 }
 
 .square{
@@ -28,27 +19,24 @@
     font-size: 1.2em;
     transition: 1s;
     margin: 1.5%;
-    width: 20%;
-    height: 450px;
+    width: 25%;
+    height: 400px;
     padding: 2px;
     background-color: rgb(255, 255, 255);
+    color: black;
     text-align: center;
     border: 3px solid rgb(22, 135, 255);
     border-radius: 20px;
     /* box-shadow: -5px 10px 10px black; */
 }
 
-.flutter-project{
-    position: absolute;
-    text-overflow: ellipsis;
-}
 
 .square:hover{
     color: rgba(250, 250, 250, 0.8);
     transition: 1s;
     transform: scale(1.04);
     background-color: rgba(69, 69, 69, 0.5);
-    
+    cursor: pointer;
 }
 .square:active{
     transition: 1s;
@@ -57,26 +45,12 @@
     border-color: rgb(124, 186, 253);
 }
 
-.dark .square{
-    /* background-color: rgb(71, 71, 71); */
-    background-color: black;
-    border-color: rgb(124, 186, 253);
-}
-.dark .square:hover{
-    background-color: rgb(54, 54, 54);
-}
-.dark .square:active{
-    color: black;
-    background-color: rgb(250, 250, 250);
-    border-color: rgb(22, 135, 255);
-}
-
 /* .cpp-project{
     display: none;
 } */
-.progress{
+.project-completion{
     transition: 1s;
-    position: absolute;
+    position:absolute;
     bottom: 0; 
     left: -2px;
     width: 100%; 
@@ -89,35 +63,22 @@
     background-size:contain;
     border-radius: 0px 0px 20px 20px;
 }
-.completed{
+.project-status{
+    width: 100%;
     text-align: center;
+    /* text-overflow: clip; */
     position: relative;
-    top: -10px;
+    /* top: -10px; */
     font-weight: bold;
+    font-size: 0.87em;
 }
-.dark .progress{
-    transition: 1s;
-    background-color: rgb(207, 19, 35);
-}
-#bank-app{
-    /* background-color: red; */
-}
+
+
 /* #bank-app:hover{
     transition: 4s;
     background-position: right;
 } */
-#instagram-analytics{
-    background-image: url();
+/* #Instagram-Analytics{
+    background-image: url(/assets/project-background/flutter/flash-chat/flash_chat.PNG);
     background-size: cover;
-    
-}
-#school-system{
-    background-image: url();
-    background-size: cover;
-    
-}
-#dates{
-    background-image: url();
-    background-size: cover;
-    
-}
+} */

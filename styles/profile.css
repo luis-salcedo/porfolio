@@ -1,8 +1,55 @@
+.profile-section{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 70vh;
+}
+
+.profile-header{
+    position: relative;
+    left: 20px;
+    top: 10px;
+    width: 100%;
+    height: 100%;
+}
+/* Name Design */
+#profile-name {
+    position: relative;
+    transition: 1s;
+    font-family: 'Imperial Script', cursive, sans-serif;
+    font-size: 8em;
+    line-height: 80px;
+    font-weight: 400;
+    margin: 20px 10px 20px 0%;
+    
+} #profile-name:hover{
+    text-shadow: 10px 10px rgba(242, 3, 3, 0.4)
+}
+
+#intro-tag-one {
+    text-align: center;
+    color: blue;
+    padding-bottom: 5%;
+    margin: 0%;
+    line-height: 0px;
+    font-size: 1.7em;
+    font-family: 'Bad Script', cursive, sans-serif;
+    font-weight: 700;
+}
+
+#intro-tag-two {
+    padding: 0%;
+    line-height: 30px;
+    margin: 0%;
+    font-size: 1.2em;
+    font-family: 'Bad Script', cursive, sans-serif;
+}
+
 .programming-stack{
     text-transform: uppercase;
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    width: 50%;
     height: 60%;
     margin: 8% 1% 2% 1%;
     position: relative;
@@ -17,30 +64,22 @@
     width: 25%;
     height: 4.5em;
     text-align: center;
-    border: 3px solid rgb(22, 135, 255);
+    border: 3px solid rgb(176, 2, 2);
     border-radius: 20px;
     background-size: cover;
     background-position: center;
-    
+    cursor: pointer;
 }
 .stack:hover{
     transition: 1s;
     transform: translate(5px, 10%);
-    box-shadow: -2px 5px 5px 2px rgba(0,0,0,0.5);
+    box-shadow: -2px 5px 5px 2px rgba(255,255,255,0.5);
 }
 
-.dark .stack{
-    transition: 1s;
-    border-color: rgb(207, 19, 35);
-    box-shadow: -5px 5px 10px 5px rgba(207, 19, 35, 0.1);
-}
-.dark .stack:hover{
-    transition: 1s;
-    box-shadow: -2px 2px 2px 2px rgba(250,250,250,0.5);
-}
+
 #html-stack{
-    
     background-image: url('/assets/stack/html.png');
+    background-size: cover;
 }
 
 #css-stack{
