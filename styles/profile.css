@@ -1,106 +1,54 @@
+.profile-details{
+    float: left;
+    display: flex;
+    flex-direction: column;
+    
+}
 .profile-section{
     display: flex;
-    position: relative;
-    width: 100%;
-    height: 70vh;
-}
-
-.profile-header{
-    position: relative;
-    left: 20px;
-    top: 10px;
-    width: 100%;
-    height: 100%;
-}
-/* Name Design */
-#profile-name {
-    position: relative;
-    transition: 1s;
-    font-family: 'Imperial Script', cursive, sans-serif;
-    font-size: 8em;
-    line-height: 80px;
-    font-weight: 400;
-    margin: 20px 10px 20px 0%;
-    
-} #profile-name:hover{
-    text-shadow: 10px 10px rgba(242, 3, 3, 0.4)
-}
-
-#intro-tag-one {
-    text-align: center;
-    color: blue;
-    padding-bottom: 5%;
-    margin: 0%;
-    line-height: 0px;
-    font-size: 1.7em;
-    font-family: 'Bad Script', cursive, sans-serif;
-    font-weight: 700;
-}
-
-#intro-tag-two {
-    padding: 0%;
-    line-height: 30px;
-    margin: 0%;
-    font-size: 1.2em;
-    font-family: 'Bad Script', cursive, sans-serif;
-}
-
-.programming-stack{
-    text-transform: uppercase;
-    display: flex;
-    flex-wrap: wrap;
-    width: 50%;
-    height: 60%;
-    margin: 8% 1% 2% 1%;
-    position: relative;
     justify-content: center;
-}
+    flex-wrap: wrap;
+    padding-left: 11%;
+    padding-top: 9%;
+    padding-bottom: 2%;
 
-.stack{
-    transition: 1s;
-    font-weight: bold;
-    transition: 1s;
-    margin: 0% 1% 1% 1%;
-    width: 25%;
-    height: 4.5em;
+} 
+.profile-details {
+    float: left;
+    padding: 0px 16px;
+    font-family: 'Bad Script', cursive; 
+}
+#name{
+    font-size: 3.2em;
+    font-weight: 700;
+    padding-bottom: 5px;
+    height: 90px;
+}
+#title{
+    font-size: 1.5em;
+    line-height: 1px;
     text-align: center;
-    border: 3px solid rgb(176, 2, 2);
-    border-radius: 20px;
-    background-size: cover;
-    background-position: center;
-    cursor: pointer;
-}
-.stack:hover{
-    transition: 1s;
-    transform: translate(5px, 10%);
-    box-shadow: -2px 5px 5px 2px rgba(255,255,255,0.5);
-}
+} 
 
-
-#html-stack{
-    background-image: url('/assets/stack/html.png');
-    background-size: cover;
+.card {
+    display: flex;
+    position: relative;
+    width: 50%;
+    text-align: start;
+    /* box-shadow: 0 2px 8px 0 rgba(219, 25, 25, 0.2); */
+    transition: 0.3s;
 }
-
-#css-stack{
-    background-image: url('/assets/stack/css.png');
-    background-size: cover;
+.profile-image{ 
     
+    position: relative; 
+    width: 100px; height: 100px; 
+    padding-left: 20px;
+    padding-top: 20px;
+    
+} 
+.profile-image img {  
+    border-radius: 50%;
+    width: 100%; 
+    height: 100%; 
 }
-#javascript-stack{
-    background-image: url('/assets/stack/javascript.png');
-    background-size: cover;
 
-}
-#python-stack{
-    background-image: url('/assets/stack/python.png');
-    background-size: cover;
-}
-#flutter-stack{
-    background-image: url('/assets/stack/flutter.png');
-    background-size: cover;
-}
-#cpp-stack{
-    background-image: url('/assets/stack/cpp.png');
-    background-size: cover;
-}

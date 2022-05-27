@@ -1,0 +1,25 @@
+.biography{
+    /* display: flex; */
+    padding-left: 34.5%;
+    width: 30%;
+    text-align:justify;
+}
+.biography h3{
+    /* display: inline; */
+    /* padding-left: 34.5%; */
+    padding-top: 2%;
+    padding-bottom: 0px;
+    
+}
+.biography h3 span{
+    border-bottom: 5px solid rgb(54, 54, 54);
+}
+.year{
+    padding-left: 3.4em;
+    text-indent: -3.4em;
+}
+.timeline{
+    /* padding-left: 3.4em; */
+    font-weight: bold;
+    margin-right: 0.8em;
+}

@@ -2,45 +2,58 @@
 
 body{
     /* cursor: url('/assets/cursors/iconmonstr-bed-5-32.png'), auto; */
-    transition: 1s;
+    /* transition: 1s; */
     margin: 0;
     padding: 0;
     /* background-color: rgb(237, 240, 240); */
-    background-color: rgb(3, 3, 3);
+    background-color: rgb(32, 32, 35);
     color: rgb(255, 255, 255);
     font-family: 'Poppins', sans-serif;
     /* background-image: url(/assets/header/particles.gif);
     background-size: contain; */
 }
 
-
-
-.square a{
+h3 span{
+    transition: 1s;
+    font-size: 1.3em;
+}
+.main-header{
     display: none;
+    /* padding-left: 10%; */
+    border: 3px solid rgb(45, 45, 45);
 }
-a{
-    color: rgb(238, 169, 255);
-    
-    border: 3px solid transparent;
-    font-size: 1.3rem;
-    text-decoration: none;
-    font-weight: 700;
-
+.main-header ul{
+    list-style: none;
+    display: flex;
+    position: relative;
+    display:flex;
+    flex-direction: row;
+    justify-content: start;
+    animation: h 7s alternate infinite;
 }
-a:hover{
-    text-decoration: underline;
-    border-color: black;
-    border-radius: 20px;
-    
+@keyframes h {
+  100%{
+    transform: translate(-20%, 30%);
+  }
 }
 
-
-
+.greeting{
+    display: none;
+    /* justify-items: center; */
+    text-align: center;
+    font-size: 0.8em;
+}
+.greeting span{
+    background-color: rgb(45, 45, 45);
+    padding: 1.2% 6% 1.2% 6%;
+    border-radius: 15px;
+}
 footer{
+    height: 100%;
     display: flex;
     justify-content: center;
-    padding: 50px 30px;
-    background-color: rgb(124, 186, 253);
+    padding: 5px 30px;
+    background-color: rgb(36, 36, 36);
 }
 
 

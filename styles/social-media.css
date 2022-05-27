@@ -1,0 +1,41 @@
+.links{
+    /* display: flex; */
+    padding-left: 34.5%;
+    width: 30%;
+    text-align:justify;
+    
+}
+.links h3{
+    /* display: inline; */
+    /* padding-left: 34.5%; */
+    padding-top: 2%;
+    padding-bottom: 0px;
+    
+}
+.links h3 span{
+    border-bottom: 5px solid rgb(54, 54, 54);
+}
+.links a{
+    display: block;
+    color: white;
+    /* padding-bottom: 5px; */
+    text-decoration: none;
+    justify-content: center;
+    transition: 1s;
+    width: 30%;
+    height: 30px;
+
+    /* border: 3px solid blue; */
+}.links a:hover{
+    transition: 1s;
+    transform: translate(10px);
+}
+.links .common span{
+    background-color: rgb(35, 34, 34);
+}
+/*  */
+
+.links .common img{
+    width: 20px;
+    /* padding-top: 5px;  */
+}

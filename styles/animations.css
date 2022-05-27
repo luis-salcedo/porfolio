@@ -1,0 +1,20 @@
+.animation-section{
+    display: flex;
+    padding-left: 28.5%;
+    padding-bottom: 0.5%;
+    width: 70%;
+    text-align:justify;
+}
+ 
+  .zombie img{
+    float: left;
+    width: 255px;
+    border-radius: 5%;
+  }
+  .dog img{
+    padding-top: 170px;
+    float: right;
+    width: 165px;
+    border-radius: 5%;
+
+  }

@@ -1,0 +1,58 @@
+.work-related{
+    /* display: flex; */
+    padding-left: 34.5%;
+    width: 30%;
+    text-align:justify;
+}
+.work-related h3{
+    /* display: inline; */
+    /* padding-left: 34.5%; */
+    padding-top: 2%;
+    padding-bottom: 0px;
+    
+}
+.work-related h3 span{
+    border-bottom: 5px solid rgb(54, 54, 54);
+}
+
+.porfolio-btn{
+    /* transition: 1s; */
+    background-color: rgb(26, 26, 26);
+    color: palegreen;
+    text-decoration: wavy;
+    text-shadow: 3px 1px 1px inherit;
+
+    padding: 4% 6%;
+    border-radius: 20px;
+    font-size: 1em;
+    font-weight: bold;
+    animation: btnanimate 7s alternate infinite;
+}.porfolio-btn:hover{
+    transition: 1s;
+    cursor: pointer;
+    
+}
+    
+@keyframes btnanimate {
+    0%{
+        transform: 5s;
+        color: pink;
+        border: 2px solid pink;
+        
+    }
+    25%{
+        transform: 5s;
+        color: white;
+        border: 2px solid white;
+    }
+    75%{
+        transform: 5s;
+        color: lightblue;
+        border: 2px solid lightblue;
+    }
+    
+    100%{
+        transform: 5s;
+        transform: translate(20%);
+    }
+}
