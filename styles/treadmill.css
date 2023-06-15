@@ -1,20 +1,50 @@
-.container{
-    display: block;
-    height: 0px;
-    width: 90%;
+.threadmill {
     position: relative;
-    background-color: aqua;
-    padding-top: 0px;
+    padding-top: 5%;
 }
-canvas {
+
+.container {
     position: relative;
+     /* Maintain a 16:9 aspect ratio (height:width ratio) */
+    padding-bottom: 5%;
+    /* background-color: aqua; */
     width: 80%;
-    top: -75px;
-    padding-left: 20.5%;
-    padding-top: -200px;
-    align-content: center;
-  }
+}
+
+canvas {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 50%;
+    height: 100%;
+}
+
+.zombie{
+    position: absolute;
+    top: -52%;
+    left: 5%;
+    width: 100%;
+    /* height: 100%; */
+}
+.dog {
+    position: absolute;
+    top: 72%;
+    left: 22%;
+    width: 100%;
+    /* height: 100%; */
+}
 
 
+.dog img {
+    width: 5%;
+    height: 10%;
+    /* object-fit: cover; */
+    border-radius: 5%;
+}
 
-
+.zombie img{
+    width: 10%;
+    height: 15%;
+    /* object-fit: cover; */
+    border-radius: 5%;
+}

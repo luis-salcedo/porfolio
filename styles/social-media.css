@@ -39,3 +39,14 @@
     width: 20px;
     /* padding-top: 5px;  */
 }
+
+@media only screen and (max-width: 600px) {
+    .links {
+        padding-left: 5%;
+        width: 90%;
+    }
+
+    .links a {
+        height: 25px;
+    }
+}
