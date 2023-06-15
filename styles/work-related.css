@@ -15,7 +15,7 @@
     border-bottom: 5px solid rgb(54, 54, 54);
 }
 
-.porfolio-btn{
+.porfolio-btn, .deployed-btn{
     /* transition: 1s; */
     background-color: rgb(26, 26, 26);
     color: palegreen;
@@ -27,7 +27,7 @@
     font-size: 1em;
     font-weight: bold;
     animation: btnanimate 7s alternate infinite;
-}.porfolio-btn:hover{
+}.porfolio-btn:hover, .deployed-btn:hover{
     transition: 1s;
     cursor: pointer;
     
