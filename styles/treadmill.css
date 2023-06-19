@@ -1,6 +1,6 @@
 .threadmill {
     position: relative;
-    padding-top: 5%;
+    padding-top: 3%;
 }
 
 .container {
@@ -48,4 +48,35 @@ canvas {
     height: 15%;
     /* object-fit: cover; */
     border-radius: 5%;
+}
+
+
+
+/* Responsive font size for different screen sizes */
+/* Mobile and So On */
+@media (max-width: 768px) {
+    .container{
+        width: 120%;
+    }
+    canvas{
+        height: 90px;
+    }
+    .threadmill{
+        height: 100px;
+    }
+    .dog {
+        position: absolute;
+        top: 130%;
+        left: 28%;
+        width: 100%;
+        /* height: 100%; */
+    }
+}
+/* Bigger Screens like tables */
+@media (min-width: 769px) and (max-width: 1024px) {
+
+}
+/* Bigger Screens like monitors or larger computers meh */
+@media (min-width: 1025px) {
+
 }

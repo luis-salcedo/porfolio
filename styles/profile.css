@@ -1,32 +1,28 @@
 .profile-details {
     position: relative;
-    float: left;
     display: flex;
     flex-direction: column;
-
+    
+    padding: 0% 5%;
+    font-family: 'Bad Script', cursive;
+    width: 50%;
 }
 
 .profile-section {
     position: relative;
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
     padding-left: 11%;
     padding-top: 9%;
     padding-bottom: 2%;
-    width: 50%;
+    width: 100%;
+
 }
 
-.profile-details {
-
-    /* float: left; */
-    padding: 0% 5%;
-    font-family: 'Bad Script', cursive;
-}
 
 #name {
     /* position: absolute; */
-    font-size: 3.0rem;
+    font-size: 50px;
     font-weight: 700;
     padding-bottom: 1%;
     height: 70%;
@@ -43,6 +39,7 @@
     display: flex;
     width: 80%;
     flex-direction: row;
+    justify-content: space-around;
     flex-wrap: nowrap;
     background-color: rgb(36, 35, 35);
     /* box-shadow: 0 2px 8px 0 rgba(219, 25, 25, 0.2); */
@@ -79,28 +76,80 @@
     transition: 0.5s;
 }
 
-/* Media Query for Mobile Devices */
-@media only screen and (max-width: 900px) {
-    .profile-details {
+
+
+/* Responsive font size for different screen sizes */
+/* Mobile and So On */
+@media (max-width: 768px) {
+    .profile-section{
+        width: 100%;
+    }
+    
+    #name {
+        font-size: 20px; /* Adjust the value as needed */
+        padding: 0px;
+    }#title{
+        font-size: 13px;
+        line-height: 0px;
         padding: 0px;
     }
+    .profile-image img{
+        height: 60%;
+        width: 60%;
+    }
+    .card{
+        height: 80px;
+        align-items: center;
+    }
+    p{
+        font-size: 12px;
+    } 
+    .work-section, .bio-section, .interests-section, .social-media-section{
+        display: flex;
+        font-size: 12px;
+        align-items: center;
+    }
 
+}
+/* Bigger Screens like tables */
+@media (min-width: 769px) and (max-width: 1024px) {
     #name {
-        font-size: 1.5rem;
+        font-size: 28px; /* Adjust the value as needed */
+        padding: 0px;
+    }#title{
+        font-size: 23px;
+        line-height: 10px;
+        padding: 0px;
     }
-
-    #title {
-        font-size: 0.8rem;
+    .profile-section{
+        width: 80%;
+        justify-content: center;
     }
-
-    .card {
-        /* width: 100%; */
-        margin: 0 auto;
+    .card{
+        height: 100px;
+        justify-content: center;
+        align-items: center;
     }
+}
+/* Bigger Screens like monitors or larger computers meh */
+@media (min-width: 1025px) {
+    #name {
+        font-size: 30px; /* Adjust the value as needed */
+        padding: 0px;
 
-    .profile-image {
-        width: 50px;
-        height: 50px;
-        /* padding-top: 10px; */
+    }
+    #title{
+        font-size: 20px;
+    }
+    .profile-section{
+        justify-content: center;
+        width: 80%;
+    }
+    .card{
+        width: 50%;
+        /* New */
+        height: 100px;
+        justify-content: center;
+        align-items: center;
     }
 }
