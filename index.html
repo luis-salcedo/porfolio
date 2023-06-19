@@ -1,157 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>My Porfolio</title>
-        <!-- FavIco -->
-        <!-- <link rel="icon" type="image/x-icon" href="/assets/icons/facebook_icon.gif"> -->
-        <!-- FONTS -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap" rel="stylesheet">
-        
-        <!-- STYLES -->
-        <link rel="stylesheet" href="main.css">
-        <link rel="stylesheet" href="/styles/profile.css">
-        <link rel="stylesheet" href="/styles/work-related.css">
-        <link rel="stylesheet" href="/styles/bio.css">
-        <link rel="stylesheet" href="/styles/interests.css">
-        <link rel="stylesheet" href="/styles/social-media.css">
-        <link rel="stylesheet" href="/styles/treadmill.css">
-        <link rel="stylesheet" href="styles/animations.css">
-    </head>
-    <body>
-        <header class="main-header">
-            
-            <ul>
-                <div style="padding-right: 20%; "></div>
-                <span id="header-logo">
-                    <img src="/assets/dom-rep.png" alt="logo" style="position: relative; width: 2rem; height:2rem; top: -8%;">
-                </span>
-                <li id="header-name" style="padding-right: 5%;">Luis Salcedo</li>
-                <li id="header-projects" style="padding-right: 5%;">Projects</li>
-                <span id="header-github" >
-                    <img src="/assets/icons/github_icon_plus.png" alt="logo" style="position: relative; width: 2rem; height:2rem; top: -8%;">
-                   
-                </span>
-                <li style="padding-right: 22%;">Github</li>
-                <span id="header-dark-mode">
-                    <img src="/assets/icons/github_icon_plus.png" alt="logo" style="position: relative; width: 2rem; height:2rem; top: -8%;">
-                </span>
-            </ul>
-        </header>
 
-        <main>
-            <div class="work-in-progress">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Porfolio</title>
+    <!-- FavIco -->
+    <!-- <link rel="icon" type="image/x-icon" href="/assets/icons/facebook_icon.gif"> -->
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap" rel="stylesheet">
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="/styles/profile.css">
+    <link rel="stylesheet" href="/styles/work-related.css">
+    <link rel="stylesheet" href="/styles/bio.css">
+    <link rel="stylesheet" href="/styles/interests.css">
+    <link rel="stylesheet" href="/styles/social-media.css">
+    <link rel="stylesheet" href="/styles/treadmill.css">
+    <link rel="stylesheet" href="styles/animations.css">
+</head>
+
+<body>
+    <header class="main-header">
+
+        <ul>
+            <div style="padding-right: 20%; "></div>
+            <span id="header-logo">
+                <img src="/assets/dom-rep.png" alt="logo"
+                    style="position: relative; width: 2rem; height:2rem; top: -8%;">
+            </span>
+            <li id="header-name" style="padding-right: 5%;">Luis Salcedo</li>
+            <li id="header-projects" style="padding-right: 5%;">Projects</li>
+            <span id="header-github">
+                <img src="/assets/icons/github_icon_plus.png" alt="logo"
+                    style="position: relative; width: 2rem; height:2rem; top: -8%;">
+
+            </span>
+            <li style="padding-right: 22%;">Github</li>
+            <span id="header-dark-mode">
+                <img src="/assets/icons/github_icon_plus.png" alt="logo"
+                    style="position: relative; width: 2rem; height:2rem; top: -8%;">
+            </span>
+        </ul>
+    </header>
+
+    <main>
+        <!-- <div class="work-in-progress">
                 <h1>
                     <strong>Work in Progress:</strong>
                 </h1>
                 <h3>Best if viewed on desktop or laptop</h3>
+            </div> -->
+        <!-- Profile Goes Here -->
+        <div class="threadmill">
+            <div class='container'>
+                <canvas id='canvas' width='800'></canvas>
+                <div class="zombie">
+                    <img src="/assets/threadmill/zombie.gif" alt="Zombie Picture">
+                </div>
+                <div class="dog">
+                    <img src="/assets/threadmill/dog2.webp" alt="Dog Picture">
+                </div>
             </div>
-            <!-- Profile Goes Here -->
-            <div class="threadmill">
-                <div class='container'>
-                        <canvas id='canvas' width='800' ></canvas>
-                        <div class="zombie">
-                            <img src="/assets/threadmill/zombie.gif" alt="Zombie Picture">
-                        </div>
-                        <div class="dog">
-                            <img src="/assets/threadmill/dog2.webp" alt="Dog Picture">
-                        </div>
-                  </div>
-                  
-            </div>
-            
-            <section class="profile-section">
-                <div class="card">
-                    <div class="profile-details">
-                        <span id="name">Luis Salcedo</span>
-                        <span id="title">Software Engineer</span>
-                    </div>
-                    <div class="profile-image">
-                        <img src="/assets/profile.jpg" alt="Profile Picture" >
-                    </div>
-                </div>
-            </section>
-            <section class="work-section">
-                <div class="work-related">
-                    <h3><span>Work</span></h3>
-                    <p>&ensp; I am a software developer based in New York with a 
-                        pasion for building mobile applications as well as
-                        web applications. One of the things I love doing the most 
-                        is learning how to tackle difficult problems whether it be
-                        designing or safely implementing new features.
-                    </p>
-                    <button class="porfolio-btn" >Active Projects</button>
-                    <br><br>
-                    <button class="deployed-btn" >Deployed Apps</button>
-                </div>
-                
-            </section>
-            <section class="bio-section">
-                <div class="biography">
-                    <h3><span>Timeline</span></h3>
-                    <div class="year">
-                        <span class="timeline">1998</span>
-                        Born in Santiago, Dominican Republic.
-                    </div>
-                    <div class="year">
-                        <span class="timeline">2012</span>
-                        Migrated to the United States.
-                    </div>
-                    <div class="year">
-                        <span class="timeline">2017</span>
-                        H.S Diploma from Robert H. Goddard High School 308
-                        School of Communicatio, Arts and Technology.
-                    </div>
-                    <div class="year">
-                        <span class="timeline">2017</span>
-                        Started Something
-                    </div>
-                </div>
-                
-            </section>
-            <section class="interests-section">
-                <div class="hobbies">
-                    <h3><span>I ❤</span></h3>
-                    <p>&ensp; Watching Movies, TV Shows, Playing Video Games, 
-                        Building Lego Sets, and Going on Trips!
-                    </p>
-                </div>
-                
-            </section>
-            <section class="social-media-section">
-                <div class="links">
-                    <h3><span>🔗Find Me🔗</span></h3>
-                    <div class="linkedin-link common">
-                        <a href="https://www.linkedin.com/in/luis-salcedo-b44950125/" target="_blank"><span> <img src="/assets/icons/linkedin_icon.gif" alt="LinkedIn logo">LinkedIn</span></a>
-                    </div>
-                    <div class="github-link common">
-                        <a href="https://www.github.com/luis-salcedo" target="_blank"><span><img src="/assets/icons/github_icon.gif" alt="Github logo">Github</span></a>
 
-                    </div>
-                    <div class="facebook-link common">
-                        <a href="/www.facebook.com" target="_blank"><span><img src="/assets/icons/facebook_icon.gif" alt="Facebook logo">Facebook</span></a>
-                    </div>
-                    <div class="instagram-link common">
-                        <a href="/www.instagram.com" target="_blank"><span><img src="/assets/icons/instagram.gif" alt="Instagram logo">Instagram</span></a>
-                    </div>
-                    <div class="twitter-link common">
-                        <a href="sdsdsd" target="_blank"><span><img src="/assets/icons/twitter_icon.gif" alt="Twitter logo">Twitter</span></a>
-                    </div>
+        </div>
+
+        <section class="profile-section">
+            <div class="card">
+                <div class="profile-details">
+                    <span id="name">Luis Salcedo</span>
+                    <span id="title">Software Engineer</span>
                 </div>
-                
-            </section>
-        </main>
-        <footer id="footer">
-            <p>&copy; Made With 💗 In New York</p>
-        </footer>
-        <script src="/scripts/stars.js"></script>
-        <script src="/scripts/index.js"></script>
-        <script src="/scripts/threadmill.js"></script>
-    </body>
+                <div class="profile-image">
+                    <img src="/assets/profile.jpg" alt="Profile Picture">
+                </div>
+            </div>
+        </section>
+        <section class="work-section">
+            <div class="work-related">
+                <h3><span>Work</span></h3>
+                <p>&ensp; I am a software developer based in New York with a
+                    pasion for building mobile applications as well as
+                    web applications. One of the things I love doing the most
+                    is learning how to tackle difficult problems whether it be
+                    designing or safely implementing new features.
+                </p>
+                <button class="porfolio-btn">Active Projects</button>
+                <br><br>
+                <button class="deployed-btn">Deployed Apps</button>
+            </div>
+
+        </section>
+        <section class="bio-section">
+            <div class="biography">
+                <h3><span>Timeline</span></h3>
+                <div class="year">
+                    <span class="timeline">1998</span>
+                    Born in Santiago, Dominican Republic.
+                </div>
+                <div class="year">
+                    <span class="timeline">2012</span>
+                    Migrated to the United States.
+                </div>
+                <div class="year">
+                    <span class="timeline">2017</span>
+                    H.S Diploma from Robert H. Goddard High School 308
+                    School of Communicatio, Arts and Technology.
+                </div>
+                <div class="year">
+                    <span class="timeline">2017</span>
+                    Started Something
+                </div>
+            </div>
+
+        </section>
+        <section class="interests-section">
+            <div class="hobbies">
+                <h3><span>I ❤</span></h3>
+                <p>&ensp; Watching Movies, TV Shows, Playing Video Games,
+                    Building Lego Sets, and Going on Trips!
+                </p>
+            </div>
+
+        </section>
+        <section class="social-media-section">
+            <div class="links">
+                <h3><span>🔗Find Me🔗</span></h3>
+                <div class="linkedin-link common">
+                    <a href="https://www.linkedin.com/in/luis-salcedo-b44950125/" target="_blank"><span> <img
+                                src="/assets/icons/linkedin_icon.gif" alt="LinkedIn logo">LinkedIn</span></a>
+                </div>
+                <div class="github-link common">
+                    <a href="https://www.github.com/luis-salcedo" target="_blank"><span><img
+                                src="/assets/icons/github_icon.gif" alt="Github logo">Github</span></a>
+
+                </div>
+                <div class="facebook-link common">
+                    <a href="/www.facebook.com" target="_blank"><span><img src="/assets/icons/facebook_icon.gif"
+                                alt="Facebook logo">Facebook</span></a>
+                </div>
+                <div class="instagram-link common">
+                    <a href="/www.instagram.com" target="_blank"><span><img src="/assets/icons/instagram.gif"
+                                alt="Instagram logo">Instagram</span></a>
+                </div>
+                <div class="twitter-link common">
+                    <a href="sdsdsd" target="_blank"><span><img src="/assets/icons/twitter_icon.gif"
+                                alt="Twitter logo">Twitter</span></a>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <footer id="footer">
+        <p>&copy; Made With 💗 In New York</p>
+    </footer>
+    <script src="/scripts/stars.js"></script>
+    <script src="/scripts/index.js"></script>
+    <script src="/scripts/threadmill.js"></script>
+</body>
+
 </html>

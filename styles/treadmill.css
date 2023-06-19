@@ -5,8 +5,8 @@
 
 .container {
     position: relative;
-     /* Maintain a 16:9 aspect ratio (height:width ratio) */
-    padding-bottom: 5%;
+    /* Maintain a 16:9 aspect ratio (height:width ratio) */
+    padding-bottom: 7%;
     /* background-color: aqua; */
     width: 80%;
 }
@@ -15,21 +15,22 @@ canvas {
     position: absolute;
     top: 100%;
     left: 0;
-    width: 50%;
+    width: 60%;
     height: 100%;
 }
 
-.zombie{
+.zombie {
     position: absolute;
-    top: -52%;
-    left: 5%;
+    top: 0%;
+    left: 10%;
     width: 100%;
     /* height: 100%; */
 }
+
 .dog {
     position: absolute;
-    top: 72%;
-    left: 22%;
+    top: 90%;
+    left: 28%;
     width: 100%;
     /* height: 100%; */
 }
@@ -42,7 +43,7 @@ canvas {
     border-radius: 5%;
 }
 
-.zombie img{
+.zombie img {
     width: 10%;
     height: 15%;
     /* object-fit: cover; */
